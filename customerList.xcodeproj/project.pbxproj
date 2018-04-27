@@ -8,20 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		5285299120939ED600ABD8EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285299020939ED600ABD8EE /* AppDelegate.swift */; };
-		5285299320939ED600ABD8EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285299220939ED600ABD8EE /* ViewController.swift */; };
+		5285299320939ED600ABD8EE /* CustomerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285299220939ED600ABD8EE /* CustomerListViewController.swift */; };
 		5285299620939ED600ABD8EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5285299420939ED600ABD8EE /* Main.storyboard */; };
 		5285299820939ED700ABD8EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5285299720939ED700ABD8EE /* Assets.xcassets */; };
 		5285299B20939ED700ABD8EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5285299920939ED700ABD8EE /* LaunchScreen.storyboard */; };
+		528529A72093A7FE00ABD8EE /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528529A62093A7FE00ABD8EE /* CheckInViewController.swift */; };
+		528529A92093A81E00ABD8EE /* CustomerListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528529A82093A81E00ABD8EE /* CustomerListTableViewCell.swift */; };
+		528529B22093AB4A00ABD8EE /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528529B12093AB4A00ABD8EE /* Customer.swift */; };
+		528529B42093AB8F00ABD8EE /* BirdeyeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528529B32093AB8F00ABD8EE /* BirdeyeService.swift */; };
+		528529B62093AC1600ABD8EE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528529B52093AC1600ABD8EE /* Constants.swift */; };
+		528529B82093AEE800ABD8EE /* SQLiteDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528529B72093AEE800ABD8EE /* SQLiteDatabase.swift */; };
+		5C2FE8AC12380A0D0B4BF7BF /* Pods_customerList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34E0F2106C60464C00067A4 /* Pods_customerList.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5285298D20939ED600ABD8EE /* customerList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customerList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5285299020939ED600ABD8EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5285299220939ED600ABD8EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5285299220939ED600ABD8EE /* CustomerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerListViewController.swift; sourceTree = "<group>"; };
 		5285299520939ED600ABD8EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5285299720939ED700ABD8EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5285299A20939ED700ABD8EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5285299C20939ED700ABD8EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528529A22093A49900ABD8EE /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		528529A62093A7FE00ABD8EE /* CheckInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
+		528529A82093A81E00ABD8EE /* CustomerListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerListTableViewCell.swift; sourceTree = "<group>"; };
+		528529B12093AB4A00ABD8EE /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		528529B32093AB8F00ABD8EE /* BirdeyeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdeyeService.swift; sourceTree = "<group>"; };
+		528529B52093AC1600ABD8EE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		528529B72093AEE800ABD8EE /* SQLiteDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDatabase.swift; sourceTree = "<group>"; };
+		531429AB7053C46428D1F891 /* Pods-customerList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customerList.release.xcconfig"; path = "Pods/Target Support Files/Pods-customerList/Pods-customerList.release.xcconfig"; sourceTree = "<group>"; };
+		6F067D2C5163F505C57140E5 /* Pods-customerList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customerList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-customerList/Pods-customerList.debug.xcconfig"; sourceTree = "<group>"; };
+		F34E0F2106C60464C00067A4 /* Pods_customerList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_customerList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C2FE8AC12380A0D0B4BF7BF /* Pods_customerList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +58,8 @@
 			children = (
 				5285298F20939ED600ABD8EE /* customerList */,
 				5285298E20939ED600ABD8EE /* Products */,
+				D3FB302CBF2F1FD514BEBEFB /* Pods */,
+				B78C473435B0D8DD5F77CDCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +74,86 @@
 		5285298F20939ED600ABD8EE /* customerList */ = {
 			isa = PBXGroup;
 			children = (
-				5285299020939ED600ABD8EE /* AppDelegate.swift */,
-				5285299220939ED600ABD8EE /* ViewController.swift */,
+				528529AE2093AA7000ABD8EE /* Data Service */,
+				528529A52093A7E500ABD8EE /* Model */,
+				528529A42093A7D800ABD8EE /* View */,
+				528529A32093A7D100ABD8EE /* Controller */,
+				528529AF2093AA7F00ABD8EE /* Database */,
+				528529B02093AA8E00ABD8EE /* Resources */,
 				5285299420939ED600ABD8EE /* Main.storyboard */,
-				5285299720939ED700ABD8EE /* Assets.xcassets */,
-				5285299920939ED700ABD8EE /* LaunchScreen.storyboard */,
 				5285299C20939ED700ABD8EE /* Info.plist */,
 			);
 			path = customerList;
+			sourceTree = "<group>";
+		};
+		528529A32093A7D100ABD8EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5285299220939ED600ABD8EE /* CustomerListViewController.swift */,
+				528529A62093A7FE00ABD8EE /* CheckInViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		528529A42093A7D800ABD8EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				528529A82093A81E00ABD8EE /* CustomerListTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		528529A52093A7E500ABD8EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				528529B12093AB4A00ABD8EE /* Customer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		528529AE2093AA7000ABD8EE /* Data Service */ = {
+			isa = PBXGroup;
+			children = (
+				528529B32093AB8F00ABD8EE /* BirdeyeService.swift */,
+			);
+			path = "Data Service";
+			sourceTree = "<group>";
+		};
+		528529AF2093AA7F00ABD8EE /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				528529B72093AEE800ABD8EE /* SQLiteDatabase.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		528529B02093AA8E00ABD8EE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5285299020939ED600ABD8EE /* AppDelegate.swift */,
+				5285299720939ED700ABD8EE /* Assets.xcassets */,
+				5285299920939ED700ABD8EE /* LaunchScreen.storyboard */,
+				528529A22093A49900ABD8EE /* Roboto-Regular.ttf */,
+				528529B52093AC1600ABD8EE /* Constants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B78C473435B0D8DD5F77CDCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F34E0F2106C60464C00067A4 /* Pods_customerList.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3FB302CBF2F1FD514BEBEFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F067D2C5163F505C57140E5 /* Pods-customerList.debug.xcconfig */,
+				531429AB7053C46428D1F891 /* Pods-customerList.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5285299F20939ED700ABD8EE /* Build configuration list for PBXNativeTarget "customerList" */;
 			buildPhases = (
+				C2CD9D1A815F07E99F1CFC37 /* [CP] Check Pods Manifest.lock */,
 				5285298920939ED600ABD8EE /* Sources */,
 				5285298A20939ED600ABD8EE /* Frameworks */,
 				5285298B20939ED600ABD8EE /* Resources */,
+				257BC5DF93BB791A2431CC8B /* [CP] Embed Pods Frameworks */,
+				C0CC278F479936BDDA455B37 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +225,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		257BC5DF93BB791A2431CC8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-customerList/Pods-customerList-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-customerList/Pods-customerList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0CC278F479936BDDA455B37 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-customerList/Pods-customerList-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2CD9D1A815F07E99F1CFC37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-customerList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5285298920939ED600ABD8EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5285299320939ED600ABD8EE /* ViewController.swift in Sources */,
+				5285299320939ED600ABD8EE /* CustomerListViewController.swift in Sources */,
+				528529B22093AB4A00ABD8EE /* Customer.swift in Sources */,
+				528529B42093AB8F00ABD8EE /* BirdeyeService.swift in Sources */,
+				528529A72093A7FE00ABD8EE /* CheckInViewController.swift in Sources */,
+				528529B62093AC1600ABD8EE /* Constants.swift in Sources */,
 				5285299120939ED600ABD8EE /* AppDelegate.swift in Sources */,
+				528529B82093AEE800ABD8EE /* SQLiteDatabase.swift in Sources */,
+				528529A92093A81E00ABD8EE /* CustomerListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +433,7 @@
 		};
 		528529A020939ED700ABD8EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F067D2C5163F505C57140E5 /* Pods-customerList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +452,7 @@
 		};
 		528529A120939ED700ABD8EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 531429AB7053C46428D1F891 /* Pods-customerList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
